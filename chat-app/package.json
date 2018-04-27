@@ -1,0 +1,28 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "expo": "^26.0.0",
+    "native-base": "^2.4.1",
+    "react": "^16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native-crypto": "^2.1.0",
+    "react-native-expo-image-cache": "^3.0.1",
+    "react-native-gifted-chat": "^0.4.3",
+    "react-native-keyboard-aware-scroll-view": "^0.5.0",
+    "react-native-randombytes": "^3.0.0",
+    "react-navigation": "^1.5.11",
+    "rn-nodeify": "^10.0.0",
+    "socket.io-client": "^2.1.0"
+  },
+  "scripts": {
+    "postinstall": "node_modules/.bin/rn-nodeify --install crypto --hack"
+  },
+  "react-native": {
+    "crypto": "react-native-crypto"
+  },
+  "browser": {
+    "crypto": "react-native-crypto"
+  }
+}

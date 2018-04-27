@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "chat-app",
+    "description": "This project is really great.",
+    "slug": "chat-app",
+    "privacy": "public",
+    "sdkVersion": "26.0.0",
+    "platforms": ["ios"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/bgv.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "site.thepeaceful.cool-chat-app"
+    },
+    "icon": "./icon.png",
+    "version": "1.0.0",
+    "slug": "cool-chat-app"
+  }
+}
